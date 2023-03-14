@@ -13,6 +13,8 @@ public class ContactRv extends RecyclerView.ViewHolder {
     public TextView callHistory;
     public ContactRv(@NonNull View itemView) {
         super(itemView);
-        icon = itemView.findViewById(R.id.)
+        icon = itemView.findViewById(R.id.icon_iv);
+        contact = itemView.findViewById(R.id.contact_txt);
+        callHistory = itemView.findViewById(R.id.callHistory_txt);
     }
 }
